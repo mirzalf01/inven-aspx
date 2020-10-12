@@ -1,0 +1,111 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    font-family: Franklin Gothic Book;
+}
+.right{
+    position: absolute;
+    right: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.body {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 15% 85%;
+    background-color: silver;
+    height: 100%;
+}
+
+.l-body {
+    background-color: #353b48;
+    color: silver;
+}
+
+    .l-body ul {
+        padding: 30px;
+        list-style: none;
+    }
+
+        .l-body ul li {
+            padding: 15px 10px;
+            border: 1px solid #353b48;
+        }
+
+            .l-body ul li:hover {
+                color: white;
+                border-bottom-color: white;
+                cursor: pointer;
+            }
+
+.menu ul a[href] {
+    color: silver;
+    text-decoration: none;
+    font-family: Franklin Gothic Book;
+}
+
+.r-menu6 {
+    padding: 40px;
+}
+
+.r-menu1, .r-menu2, .r-menu3, .r-menu4, .r-menu5 {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 15% 85%;
+}
+
+.h1, .form {
+    background-color: white;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.label, .input, .input2 {
+    font-size: 18px;
+}
+
+.input {
+    width: 500px;
+    padding: 3px;
+}
+
+.select {
+    width: 507.5px;
+}
+
+.form {
+    line-height: 30px;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.input2 {
+    width: 470px;
+    padding: 3px;
+}
+
+.button2 {
+    padding: 6.5px;
+    border-radius: 2px;
+}
+
+    .button, .button2:hover {
+        cursor: pointer;
+    }
+
+.content1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
